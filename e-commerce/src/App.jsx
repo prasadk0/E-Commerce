@@ -1,10 +1,15 @@
 import './App.css'
+import Carousel from './Component/Carousel'
+import Navbar from './Component/Navbar'
+import Products from './Component/Products'
 
 function App() {
 
   return (
     <>
-    <h1 className='p-5'>E-Commerce Application</h1>
+    <Navbar/>
+    <Carousel/>
+    <Products/>
     </>
   )
 }
